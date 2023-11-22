@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 const Book = require("../models/book");
-const Issue = require("../models/issue");
+const Issue = require("../models/Issue");
 
 router.post("/remove", async(req,res) => {
     console.log(req.body.book_id)
